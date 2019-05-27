@@ -1,0 +1,10 @@
+@import "variables";
+
+// Import Bootstrap source files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// spinner
+@import "loader";
+
+// app style
+@import "app";

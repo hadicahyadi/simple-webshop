@@ -1,0 +1,42 @@
+// app base styling
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-image: url('../static/img/header-bg.jpg');
+  background-size: cover;
+}
+
+.app-nav {
+  .link {
+    color: $white;
+    &:hover {
+      color: $secondary;
+      text-decoration: none;
+    }
+    &.active {
+      padding-bottom: 5px;
+      border-bottom: 1px solid $white;
+    }
+  }
+}
+
+a:active {
+  color: #fdd835;
+}
+
+.bg-body {
+  background-color: #151515;
+}
+
+.thumbnails {
+  cursor: pointer;
+}
